@@ -1,0 +1,37 @@
+#main {
+    text-align: center;
+    color:white;
+  }
+
+
+
+#footer {
+    text-align: center;
+    color:white;
+
+  }
+
+
+    a:hover {
+        color: grey;
+      }
+
+
+html { 
+        background: url(color.png) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+         -o-background-size: cover;
+         background-size: cover;
+          }
+
+#Navigation {
+  text-align: center;
+  color:white;
+
+}
+
+#mbmcookie {position: fixed; bottom: 0; left: 0; right: 0; background: #eee; padding: 20px; font-size: 14px; font-family: verdana;}
+#mbmcookie a.button {cursor: pointer; display:inline; background: #ccc; padding: 8px 20px; margin-left: 10px; border-radius: 5px; font-weight: bold; float: right;}
+#mbmcookie a.button:hover {background-color: #aaa;}
+#mbmcookie p.cookiemessage {display: block; display:inline; padding: 0; margin: 0;}
