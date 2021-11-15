@@ -1,0 +1,28 @@
+#main {
+    text-align: center;
+    color:white;
+  }
+
+
+
+#footer {
+    text-align: center;
+    color:white;
+}
+
+
+#soon {
+    text-align: center;
+    color:white;
+    size: 50cm;
+}
+
+html { 
+        background: url(black.jpg.png) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+         -o-background-size: cover;
+         background-size: cover;
+          }
+
+
