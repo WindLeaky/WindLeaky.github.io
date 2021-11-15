@@ -17,6 +17,24 @@
     size: 50cm;
 }
 
+#Navigation {
+    color:white;
+    text-align: right;
+    line-height: 20px;
+    margin-right: 16px;
+}
+
+#Navigation:visited {
+    color:white;
+}
+
+#Navigation:link {
+    color:white;
+}
+
+
+
+
 html { 
         background: url(black.jpg.png) no-repeat center center fixed; 
         -webkit-background-size: cover;
@@ -24,5 +42,3 @@ html {
          -o-background-size: cover;
          background-size: cover;
           }
-
-
