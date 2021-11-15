@@ -24,11 +24,11 @@
     margin-right: 16px;
 }
 
-#Navigation:visited {
+#Navigation,h1,a:visited{
     color:white;
 }
 
-#Navigation:link {
+#Navigation,h1,a:link {
     color:white;
 }
 
