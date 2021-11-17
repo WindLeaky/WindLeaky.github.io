@@ -39,7 +39,9 @@
 }
 
 
-
+#footer {
+    padding-top: 1000px;
+}
 
 html { 
         background: url(black.jpg.png) no-repeat center center fixed; 
