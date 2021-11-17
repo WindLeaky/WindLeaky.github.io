@@ -1,8 +1,7 @@
 #main {
     text-align: center;
     color:white;
-    background-color: aliceblue;
-    display: inline;
+    
   }
 
 
@@ -24,6 +23,13 @@
     text-align: center;
     color:white;
     font-size: 1cm;
+    background-color: aqua;
+    display: inline;
+}
+#test {
+    color:white;
+    background-color: pink;
+    display: inline-block;
 }
 #Navigation {
     color:white;
