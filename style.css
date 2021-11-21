@@ -34,35 +34,30 @@
 #Navigation 
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 200px;
-    background-color:blueviolet;
+    margin-left: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+li {
+    text-align: center;
+
 }
 
 li a {
-    display: block;
-    padding: 8px 0 8px 16px;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
 }
 
-/* Change the link color on hover */
-li a:hover {
-    background-color: white;
-    color:black;
+li a:hover:not(.active) {
+    background-color: #111;
 }
 
-li a.active {
-    background-color: #4CAF50;
-    color: white;
-}
-
-#Navigation,h1,a:visited{
-    color:white;
-}
-
-#Navigation,h1,a:link {
-    color:white;
+.active {
+    background-color:blueviolet;
 }
 
 
