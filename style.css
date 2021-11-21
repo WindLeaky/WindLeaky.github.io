@@ -1,7 +1,7 @@
 #main {
     text-align: center;
-    color:white;
-    
+    color: blueviolet;
+    margin-top: 100px;
   }
 
 
@@ -26,30 +26,33 @@
     background-color: aqua;
     display: inline;
 }
-#test {
-    color:white;
-    background-color: pink;
-    display: inline-block;
-}
+
+
 #Navigation 
 ul {
     list-style-type: none;
-    margin-left: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 li {
-    text-align: center;
-
+    float: left;
 }
 
 li a {
-    display: inline-block;
+    display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+}
+
+p {
+    color: white;
 }
 
 li a:hover:not(.active) {
@@ -62,8 +65,10 @@ li a:hover:not(.active) {
 }
 
 
-#footer {
-    padding-top: 1000px;
+#lol {
+    font-size: 20px;
+    color: white;
+    text-align: center;
 }
 
 html { 
